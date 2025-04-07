@@ -25,26 +25,25 @@ export const contract = {
   //   PAGX_RESERVE_ADDR : "0x716BB8c60D409e54b8Fb5C4f6aBC50E794DA048a",
 
   // },
-  // 56: {
-  //   name: "Binance",
-  //   symbol: "BNB",
-  //   img: bnbIcon,
-  //   RPC: "https://bsc-dataseed1.binance.org/",
-  //   EXPLORE: 'https://bscscan.com/',
-  //   MULTICALL_ADDRESS: "0x5e227ad1969ea493b43f840cff78d08a6fc17796",
-  //   WETH_ADDRESS: "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
-  //   GLDN_ADDRESS: "0xFeeB4D0f5463B1b04351823C246bdB84c4320CC2",
-  //   GLDN_LP_ADDRESS: "0x46cf1cf8c69595804ba91dfdd8d6b960c9b0a7c4",
-  //   WETH_USD_LP_ADDRESS: "0x0d4a11d5EEaaC28EC3F61d100daF4d40471f1852",
-  //   DIVIDEND_ADDRESS: "0xEFECAbFCc8a2E28Cc6278E95E6f20DE81D3C9A56",
-  //   PAXG_ADDRESS:"0x45804880De22913dAFE09f4980848ECE6EcbAf78",
-  //   PAXG_LP_ADDRESS:"0x9c4fe5ffd9a9fc5678cfbd93aa2d4fd684b67c4c",
-  //   USDT_USDC_LP_ADDRESS : "0x3041CbD36888bECc7bbCBc0045E3B1f144466f5f",
-  //   ETH_LINK_ADDRESS : "0x5f4eC3Df9cbd43714FE2740f5E3616155c5b8419",
-  //   PAXG_LINK_ADDRESS : "0x9B97304EA12EFed0FAd976FBeCAad46016bf269e",
-  //   PAGX_RESERVE_ADDR : "0x716BB8c60D409e54b8Fb5C4f6aBC50E794DA048a",
-
-  // },
+  
+  56: {
+    name: "Binance",
+    symbol: "BNB",
+    img: bnbIcon,
+    coingecko_symbol: "binancecoin",
+    networkQuery: "bsc_testnet",
+    RPC: "https://binance.llamarpc.com",
+    EXPLORE: 'https://bscscan.com/',
+    MULTICALL_ADDRESS: "0x38ce767d81de3940CFa5020B55af1A400ED4F657",
+    WETH_ADDRESS: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    TOKEN_ADDRESS: "0x32481ac9b124bd82944eac67b2ea449797d402d1",
+    TOKEN_LP_ADDRESS: "0x4c71ab4399f3eeb9ae028af488a8ac652bacc314",
+    VESTING_ADDRESS: "0x64D9D2ef90447A2f2BFCa8f8D3ec67f0109DbA91",
+    WETH: "0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c",
+    ROUTER_ADDRESS: "0x10ED43C718714eb63d5aA57B78B54704E256024E",
+    SWAP_ADDRESS: "0x32a48D1b897333B2B1e3AE4DB48206B49FEf5487",
+  },
+  
   // 97 : {
   //   name: "Binance",
   //   symbol: "BNB",
@@ -62,23 +61,23 @@ export const contract = {
 
   // }
 
-  8453: {
-    name: "Base",
-    symbol: "ETH",
-    img: ethIcon,
-    coingecko_symbol: "ethereum",
-    networkQuery: "bsc_testnet",
-    RPC: "https://base.llamarpc.com",
-    EXPLORE: "https://basescan.org/",
-    MULTICALL_ADDRESS: "0xfEE958Fa595B4478cea7560C91400A98b83d6C91",
-    WETH_ADDRESS: "0x4200000000000000000000000000000000000006",
-    TOKEN_ADDRESS: "0x32481ac9B124bD82944eac67B2EA449797d402D1",
-    TOKEN_LP_ADDRESS: "0x5a4afdb29821d55b550b7b2bd5a5513ddc6e0dc2",
-    VESTING_ADDRESS: "0x64D9D2ef90447A2f2BFCa8f8D3ec67f0109DbA91",
-    WETH: "0x4200000000000000000000000000000000000006",
-    ROUTER_ADDRESS: "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24",
-    SWAP_ADDRESS: "0x32a48D1b897333B2B1e3AE4DB48206B49FEf5487",
-  },
+  // 8453: {
+  //   name: "Base",
+  //   symbol: "ETH",
+  //   img: ethIcon,
+  //   coingecko_symbol: "ethereum",
+  //   networkQuery: "bsc_testnet",
+  //   RPC: "https://base.llamarpc.com",
+  //   EXPLORE: "https://basescan.org/",
+  //   MULTICALL_ADDRESS: "0xfEE958Fa595B4478cea7560C91400A98b83d6C91",
+  //   WETH_ADDRESS: "0x4200000000000000000000000000000000000006",
+  //   TOKEN_ADDRESS: "0x32481ac9B124bD82944eac67B2EA449797d402D1",
+  //   TOKEN_LP_ADDRESS: "0x5a4afdb29821d55b550b7b2bd5a5513ddc6e0dc2",
+  //   VESTING_ADDRESS: "0x64D9D2ef90447A2f2BFCa8f8D3ec67f0109DbA91",
+  //   WETH: "0x4200000000000000000000000000000000000006",
+  //   ROUTER_ADDRESS: "0x4752ba5dbc23f44d87826276bf6fd6b1c372ad24",
+  //   SWAP_ADDRESS: "0x32a48D1b897333B2B1e3AE4DB48206B49FEf5487",
+  // },
 };
 
 export const DEFAULT_CHAIN = 8453;
